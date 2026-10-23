@@ -6,7 +6,7 @@ class Solution(object):
         """
         n = len(nums)
         k = -1
-        for i in range (1,n):
+        for i in range (n):
             if nums[i] != i:
                 if k == -1:
                     k = nums[i]
